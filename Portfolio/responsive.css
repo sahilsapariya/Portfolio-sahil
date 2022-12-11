@@ -1,0 +1,210 @@
+@media only screen and (max-width: 1200px){
+    /*Tablets [601px -> 1200px]*/
+    .skill-icons-6-grp{
+        display: flex;
+        justify-content: center;
+    }
+    .skill-icons-3-grp{
+        display: flex;
+    }
+    .skills h1{
+        margin: 0 0 1.5rem 0;
+    }
+    .skill-icons{
+        width: 100%;
+        display: block;
+        font-size: 1rem;
+        margin: 0;
+    }
+    .skill-box{
+        width: 100%;
+        margin: 0.5rem 0.5rem;
+    }
+    .skills{
+        text-align: center;
+        width: 80%;
+        margin: 0 10%;
+    }
+    .hidden1{
+        display: block;
+    }
+    .display1{
+        display: none;
+    }    
+}
+
+@media only screen and (max-width: 750px){
+    .home img{
+        display: none;
+    }
+    .home{
+        height: 67vh;
+    }
+    .mini-img{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .mini-img img{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+}
+
+
+@media only screen and (max-width: 600px){
+	/*Big smartphones [426px -> 600px]*/
+    .name{
+        width: 93%;
+    }
+    .pythonprogramer,
+    .aboutMe{
+        text-align: center;
+        width: 90%;
+        left: 0;
+        right: 0;
+        padding: 0;
+        font-size: 1.3rem;
+        margin: 5%;
+    }
+
+    .skills h1{
+        margin: 0 0 1.5rem 0;
+    }
+
+    .skill-icons-6-grp{
+        display: block;
+    }
+    .skill-icons-3-grp{
+        display: flex;
+    }
+    .skill-icons{
+        width: 100%;
+        display: block;
+        font-size: 1rem;
+        margin: 0;
+    }
+    .skill-box{
+        width: 100%;
+        margin: 0.5rem 0.5rem;
+    }
+    .skills{
+        text-align: center;
+        width: 90%;
+        margin: 0 5%;
+    }
+    .contact-photo{
+        width: 80%;
+        padding: 2rem;
+    }
+    .contact-photo img{
+        width: 100%;
+    }
+    .contact-form{
+        width: 90%;
+        margin: 0;
+    }
+    .contact-box{
+        display: block;
+    }
+    .display{
+        display: none;
+    }
+    .hidden{
+        display: block;
+    }
+
+
+
+
+}
+@media only screen and (max-width: 425px){
+	/*Small smartphones [325px -> 425px]*/
+    .home img{
+        display: none;
+    }
+    .name{
+        width: 88%;
+    }
+
+    .pythonprogramer,
+    .aboutMe{
+        text-align: center;
+        width: 90%;
+        left: 0;
+        right: 0;
+        padding: 0;
+        font-size: 1.3rem;
+        margin: 5%;
+    }
+    .skills h1{
+        margin: 0 0 1.5rem 0;
+    }
+
+    .skill-icons{
+        width: 100%;
+        display: block;
+        font-size: 1rem;
+        margin: 0;
+    }
+    .skill-icons-6-grp{
+        display: block;
+    }
+    .skill-icons-3-grp{
+        display: flex;
+    }
+    .skill-box{
+        width: 100%;
+        margin: 0.5rem 0.5rem;
+    }
+    .skills{
+        text-align: center;
+        width: 90%;
+        margin: 0 5%;
+    }
+    .contact{
+        width: 100%;
+    }
+    .contact-box{
+        display: block;
+        width: 80%;
+        text-align: center;
+        margin: 10%;
+    }
+    .contact-photo{
+        width: 80%;
+        padding: 2rem;
+    }
+    .contact-photo img{
+        width: 100%;
+    }
+    .contact-form{
+        width: 90%;
+        margin: 0;
+    }
+    .hidden{
+        display: block;
+    }
+    .display{
+        display: none;
+    }
+
+
+}
+
+/* @media only screen and (min-height: 400px){
+    .name{
+        top: 13%;
+    }
+} */
+
+@media only screen and (max-height: 550px){
+    *{
+        font-size: 100%;
+    }
+    .name{
+        top: 20%;
+    }
+}

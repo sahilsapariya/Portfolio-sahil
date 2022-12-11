@@ -1,0 +1,518 @@
+* {
+    margin: 0;
+    padding: 0;
+    /* font-family: 'Kanit', sans-serif; */
+}
+
+body {
+    overflow-x: hidden !important;
+    background-color: black;
+}
+
+.route {
+    background-color: black;
+}
+
+::-webkit-scrollbar {
+    width: 7px;
+    background-color: black;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    width: 5px;
+}
+
+::-webkit-scrollbar-track {
+    border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: lightgrey;
+    border-radius: 10px;
+    box-shadow: inset 5px -5px 5px rgb(94, 94, 94);
+}
+
+.home {
+    font-family: Montserrat, sans-serif;
+    background-color: black;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+}
+
+.home img {
+    z-index: 10;
+    height: 100vh;
+    width: 100%;
+    opacity: 0.8;
+    position: relative;
+}
+
+.mini-img{
+    justify-content: center;
+    display: none;
+
+}
+
+.mini-img img{
+    height: 300px;
+    width: 300px;
+    display: none;
+    filter: drop-shadow(0 0 20px darkorange);
+    margin-top: 2rem;
+    border-radius: 50%;
+}
+
+.home::before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to top, #000000, transparent);
+    z-index: 100;
+}
+
+.name {
+    width: 50%;
+    top: 50%;
+    left: 7%;
+    position: absolute;
+    font-size: 2rem;
+    font-family: 'Kanit', sans-serif;
+    z-index: 100000;
+    color: white;
+    align-items: center;
+}
+
+.fullname {
+
+    border-radius: 20px;
+    font-size: 4rem;
+    font-weight: 900;
+    letter-spacing: 7px;
+    /* text-shadow: 1px 2px 4px grey; */
+}
+
+
+.change {
+    display: inline-block;
+    position: absolute;
+    opacity: 0;
+    color: darkorange;
+    animation: changeword 9s linear infinite;
+    font-size: 2rem;
+}
+
+.change:nth-child(1) {
+    animation-delay: 0s;
+}
+
+.change:nth-child(2) {
+    animation-delay: 1.5s;
+}
+
+.change:nth-child(3) {
+    animation-delay: 3s;
+}
+
+.change:nth-child(4) {
+    animation-delay: 4.5s;
+}
+
+.change:nth-child(5) {
+    animation-delay: 6s;
+}
+
+.change:nth-child(6) {
+    animation-delay: 7.5s;
+}
+
+
+@keyframes changeword {
+    0% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+
+    18% {
+        opacity: 0;
+        /* transform: translateY(-20px); */
+    }
+
+    50% {
+        transform: translateY(0px);
+    }
+
+    83% {
+        /* opacity: 0; */
+        transform: translate(20px);
+    }
+}
+
+
+/* 
+  .cursor{
+    position: fixed;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: white;
+    transition: 0.1s;
+    transform: translate(-50%, -50%);
+    pointer-events: none;
+    mix-blend-mode: difference;
+  }
+  .myProfilePhoto img:hover ~ .cursor{
+    width: 100px;
+    height: 100px;
+  } */
+
+
+
+
+
+
+
+
+
+
+
+.about {
+    width: 100%;
+    background-color: black;
+    font-size: 1.5rem;
+    font-family: 'Kanit';
+    color: white;
+}
+
+.about h1 {
+    padding: 1rem 0;
+    letter-spacing: 5px;
+    line-height: 2.5rem;
+    font-size: 2.5rem;
+    border-bottom: solid 3px darkorange;
+    margin-bottom: 1.5rem;
+}
+
+.about span {
+    letter-spacing: 3px;
+}
+
+.pythonprogramer {
+    font-family: 'Kanit', sans-serif;
+    text-align: left;
+    left: 7%;
+    padding: 3rem;
+    width: 60%;
+
+}
+
+.aboutMe {
+    text-align: right;
+    padding: 3rem;
+    width: 56%;
+    float: right;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.skills {
+    font-family: 'Kanit', sans-serif;
+    color: white;
+    width: 100%;
+    text-align: center;
+    top: 50%;
+    overflow: hidden;
+    font-size: 1.5rem;
+}
+
+.skills h1 {
+    border-bottom: solid 3px darkorange;
+    margin: 5% 10%;
+    font-size: 2.5rem;
+    padding: 1rem 0;
+    letter-spacing: 5px;
+    line-height: 2.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.skill-icons img {
+    height: 3rem;
+    width: 3rem;
+    border-radius: 5px;
+}
+
+.skill-icons {
+    color: black;
+    margin: 0 5rem;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.skill-box {
+    margin: 0 0.5rem;
+    background-color: rgb(199, 199, 199);
+    padding: 0.5rem;
+    border-radius: 10px;
+}
+
+.skill-icons-6-grp {
+    display: flex;
+}
+
+.skill-icons-3-grp {
+    display: flex;
+}
+
+
+
+
+
+
+.contact {
+    width: 100%;
+    /* height: 100vh; */
+    background-color: #000;
+    /* display: flex; */
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    text-align: center;
+    font-family: 'Kanit', sans-serif;
+}
+
+.contact h1 {
+    font-weight: 900;
+    letter-spacing: 5px;
+    padding: 1rem 0;
+    margin: 5% 10%;
+    color: white;
+    font-size: 2.5rem;
+    border-bottom: solid 3px darkorange;
+    margin-bottom: 2rem;
+}
+
+.contact-form {
+    color: white;
+    /* background-color: #ccc; */
+    width: 50%;
+    /* margin: 0 3rem; */
+    padding: 1rem;
+    border-radius: 10px;
+    margin-bottom: 4rem;
+}
+
+.contact-photo {
+    padding: 2rem 2rem 2rem 0;
+    width: 50%;
+}
+
+.contact-photo img {
+    width: 100%;
+    /* height: auto; */
+    border-radius: 10px;
+    height: 100%;
+}
+
+.contact-box {
+    display: flex;
+    /* width: 100%; */
+    background-color: #363636;
+    margin: 0 10%;
+    margin-bottom: 4rem;
+    border-radius: 10px;
+}
+.hidden{
+    display: none;
+}
+.display{
+    display: block;
+}
+
+
+input {
+    width: 80%;
+    padding: 0.8rem 1rem;
+    margin: 0.5rem 0;
+    font-size: 1.2rem;
+    font-family: 'Kanit', sans-serif;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    background-color: rgb(14, 14, 14);
+}
+
+input:focus {
+    outline: solid 2px darkorange;
+}
+
+textarea:focus {
+    outline: solid 2px darkorange;
+}
+
+textarea {
+    width: 80%;
+    padding: 0.8rem 1rem;
+    margin: 0.5rem 0;
+    font-size: 1.2rem;
+    font-family: 'Kanit', sans-serif;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    resize: none;
+    /* overflow: hidden; */
+    background-color: rgb(14, 14, 14);
+}
+
+button[type='submit'] {
+    padding: 0.5rem 2rem;
+    font-size: 1.2rem;
+    border-radius: 20px;
+    background-color: darkorange;
+    cursor: pointer;
+}
+/* button[type='submit']:hover{
+
+} */
+
+/* ***************************************************************** */
+/* 3D social media icons */
+
+.socialmedia {
+    text-align: center;
+    justify-content: center;
+    /* width: 100%; */
+    background-color: #363636;
+    margin: 0 25%;
+    margin-bottom: 2rem;
+    border-radius: 10px;
+    align-items: center;
+    padding: 0.5rem 0 1rem 0;
+}
+
+.socialmedia ul {
+    position: relative;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* width: 100%; */
+    margin-top: 3rem;
+}
+
+.socialmedia ul li {
+    position: relative;
+    list-style: none;
+    width: 3.5rem;
+    height: 3.5rem;
+    margin: 0 2rem;
+    transform: rotate(-30deg) skew(25deg);
+    background: #ccc;
+}
+
+.socialmedia ul li span {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #000;
+    transition: 0.5s;
+    display: flex !important;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-size: 2.5rem !important;
+}
+.leetcode-img img{
+    width: 80%;
+    height: 100%;
+}
+
+.socialmedia ul li:hover span:nth-child(5) {
+    transform: translate(2rem, -2rem);
+    opacity: 1;
+}
+
+.socialmedia ul li:hover span:nth-child(4) {
+    transform: translate(1.5rem, -1.5rem);
+    opacity: 0.8;
+}
+
+.socialmedia ul li:hover span:nth-child(3) {
+    transform: translate(1rem, -1rem);
+    opacity: 0.6;
+}
+
+.socialmedia ul li:hover span:nth-child(2) {
+    transform: translate(0.5rem, -0.5rem);
+    opacity: 0.4;
+}
+
+.socialmedia ul li:hover span:nth-child(1) {
+    transform: translate(0, 0);
+    opacity: 0.2;
+}
+
+.socialmedia ul li:nth-child(1) span {
+    background: #000000;
+}
+
+.socialmedia ul li:nth-child(2) span {
+    background: #1f1f1f;
+}
+
+.socialmedia ul li:nth-child(3) span {
+    background: #0077B5;
+}
+
+.socialmedia ul li:nth-child(4) span {
+    background: #e4405f;
+}
+
+.socialmedia ul li:nth-child(5) span {
+    background: #dd4b39;
+}
+
+
+
+.socialmediamini{
+    background-color: #363636;
+    width: fit-content;
+    border-radius: 50px;
+    margin: auto;
+    margin-bottom: 2rem;
+}
+.socialmediamini ul{
+    display: flex;
+    width: fit-content;
+    justify-content: center;
+}
+.socialmediamini ul li{
+    list-style: none;
+    margin: 0.5rem;
+    margin-bottom: 0;
+    padding: 0.5rem;
+}
+.socialmediamini img{
+    height: 50px;
+    width: 50px;
+}
+.hidden1{
+    display: none;
+}
+.display1{
+    display: block;
+}
