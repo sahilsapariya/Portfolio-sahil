@@ -58,7 +58,7 @@ body {
     height: 300px;
     width: 300px;
     display: none;
-    filter: drop-shadow(0 0 20px darkorange);
+    filter: drop-shadow(0 0 20px rgb(80, 80, 80));
     margin-top: 2rem;
     border-radius: 50%;
 }
@@ -262,7 +262,7 @@ body {
 
 .skill-box {
     margin: 0 0.5rem;
-    background-color: rgb(199, 199, 199);
+    background-color: rgb(212, 212, 212);
     padding: 0.5rem;
     border-radius: 10px;
 }
