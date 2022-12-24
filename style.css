@@ -59,7 +59,7 @@ body {
     width: 300px;
     display: none;
     filter: drop-shadow(0 0 20px rgb(80, 80, 80));
-    margin-top: 2rem;
+    margin: 2rem 0;
     border-radius: 50%;
 }
 
@@ -74,6 +74,8 @@ body {
 }
 
 .name {
+    overflow-y: hidden !important;
+    padding-bottom: 3rem;
     width: 50%;
     top: 50%;
     left: 7%;
@@ -89,6 +91,7 @@ body {
 
     border-radius: 20px;
     font-size: 4rem;
+    overflow-y: hidden;
     font-weight: 900;
     letter-spacing: 7px;
     /* text-shadow: 1px 2px 4px grey; */
@@ -205,6 +208,7 @@ body {
     left: 7%;
     padding: 3rem;
     width: 60%;
+    overflow-y: hidden !important;
 
 }
 
@@ -213,6 +217,8 @@ body {
     padding: 3rem;
     width: 56%;
     float: right;
+    overflow-y: hidden !important;
+
 }
 
 
@@ -281,6 +287,7 @@ body {
 
 
 .contact {
+    overflow-y: hidden !important;
     width: 100%;
     /* height: 100vh; */
     background-color: #000;
@@ -316,6 +323,8 @@ body {
 .contact-photo {
     padding: 2rem 2rem 2rem 0;
     width: 50%;
+    overflow-y: hidden !important;
+
 }
 
 .contact-photo img {
@@ -323,6 +332,8 @@ body {
     /* height: auto; */
     border-radius: 10px;
     height: 100%;
+    overflow-y: hidden !important;
+
 }
 
 .contact-box {
@@ -332,6 +343,8 @@ body {
     margin: 0 10%;
     margin-bottom: 4rem;
     border-radius: 10px;
+    overflow-y: hidden !important;
+
 }
 .hidden{
     display: none;
@@ -399,6 +412,8 @@ button[type='submit'] {
     border-radius: 10px;
     align-items: center;
     padding: 0.5rem 0 1rem 0;
+    overflow-y: hidden !important;
+
 }
 
 .socialmedia ul {
@@ -408,7 +423,7 @@ button[type='submit'] {
     display: flex;
     justify-content: center;
     align-items: center;
-    /* width: 100%; */
+    overflow-y: hidden;
     margin-top: 3rem;
 }
 
@@ -420,6 +435,7 @@ button[type='submit'] {
     margin: 0 2rem;
     transform: rotate(-30deg) skew(25deg);
     background: #ccc;
+    overflow-y: hidden;
 }
 
 .socialmedia ul li span {
