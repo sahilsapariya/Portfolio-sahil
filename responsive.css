@@ -13,11 +13,10 @@
     .skill-icons{
         width: 100%;
         display: block;
-        font-size: 1rem;
         margin: 0;
     }
     .skill-box{
-        width: 100%;
+        /* width: 100%; */
         margin: 0.5rem 0.5rem;
     }
     .skills{
@@ -38,7 +37,7 @@
         display: none;
     }
     .home{
-        height: 67vh;
+        height: 62vh;
     }
     .mini-img{
         display: flex;
@@ -58,6 +57,9 @@
 	/*Big smartphones [426px -> 600px]*/
     .name{
         width: 93%;
+    }
+    .home{
+        height: 55vh;
     }
     .pythonprogramer,
     .aboutMe{
@@ -146,7 +148,6 @@
     .skill-icons{
         width: 100%;
         display: block;
-        font-size: 1rem;
         margin: 0;
     }
     .skill-icons-6-grp{
