@@ -49,6 +49,23 @@
         justify-content: center;
         align-items: center;
     }
+    .project-container{
+        display: block;
+    }
+    .image-container{
+        margin: 1rem 5%;
+        width: fit-content;
+    }
+    .project-description{
+        width: 90%;
+        margin: 1rem 5%;
+    }
+    .project-icon-container{
+        width: 90%;
+    }
+    .relevant-links{
+        padding: 0;
+    }
 
 }
 
